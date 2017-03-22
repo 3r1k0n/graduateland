@@ -11,7 +11,9 @@ body { font-family: 'Lato', sans-serif; font-weight:500; background-color: #eded
 .menu-left .option:hover { background-color: #27292b; }
 .menu-left .option.active { background-color: #57d487; color: white; }
 .menu-left .option .glyphicon { padding-bottom: 10px; font-size: 16px; }
+
 .page { width: calc(100% - 77px); margin-left: 77px; }
+.page h2 { margin-top: 60px; margin-bottom: 35px; }
 
 .menu-left, .menu-left *, .page { transition: 0.3s all; }
 
@@ -52,10 +54,10 @@ ul.dropdown-menu:before {
     border-right: 10px solid transparent;
     height: 11px;
     width: 20px;
-    content: ""
+    content: "x"
 }
 
-.breadcrumb { background-color: #f5f5f5; box-shadow: 0 0px 10px grey; height: 33px; }
+.breadcrumb { background-color: #f5f5f5; box-shadow: 0 0px 10px grey; height: 33px; margin-bottom: 0; }
 .breadcrumb .container { padding-left: 40px; }
 
 .nav-tabs li { background-color: #f6f6f6; }
