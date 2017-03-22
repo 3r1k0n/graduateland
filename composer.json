@@ -1,0 +1,6 @@
+{
+  "require": {
+    "querypath/QueryPath": ">=3.0.0",
+    "twbs/bootstrap": "^3.3"
+  }
+}
